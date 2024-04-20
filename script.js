@@ -4,7 +4,7 @@ Shery.mouseFollower({
     duration: 1,
 });
 Shery.makeMagnet(".mag");
-Shery.hoverWithMediaCircle(".hvr", { videos: ["Videos./video1.mp4, Videos./video2.mp4, Videos./video3.mp4"] });
+Shery.hoverWithMediaCircle(".hvr", { videos: ["./video1.mp4, ./video2.mp4, ./video3.mp4"] });
 
 gsap.to(".element", {
     scrollTrigger: {
