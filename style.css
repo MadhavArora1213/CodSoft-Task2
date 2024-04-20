@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "averta cy w10";
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: white;
+    background-color: #000;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    background-color: #fff;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+.nav .right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav img {
+    width: 100px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #000;
+    font-size: 1.3vw;
+}
+
+.nav i {
+    margin-top: 3px;
+    font-size: 20px;
+
+}
+
+.home .hero {
+    width: 100%;
+    padding: 9vw 12vw;
+
+}
+
+.hero h1 {
+    font-weight: 500;
+    font-size: 1.5vw;
+    letter-spacing: -0.1vw;
+}
+
+.hero .center h1:hover {
+    color: #000;
+}
+
+.center {
+    display: flex;
+    gap: 40px;
+}
+
+.hero .center h1 {
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-weight: 900;
+    font-size: 7.5vw;
+    line-height: 1;
+    letter-spacing: -7px;
+}
+
+.homelast {
+    padding: 6vw 12vw;
+}
+
+.homelast p {
+    font-size: 1.7vw;
+    width: 65%;
+    font-weight: 500;
+    letter-spacing: -0.08vw;
+}
+
+.homelast p::selection {
+    color: white;
+    background-color: black;
+}
+
+.features {
+    padding: 10vw 15vw 1vw 15vw;
+}
+
+.features>h1 {
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.features>h1:nth-child(2) {
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+.featuredImage {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+
+}
+
+.fLeft {
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+
+}
+
+.element {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.element h2 {
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: capitalize;
+    margin: 1.5vw 0vw;
+}
+
+.element h3 {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.element h4 {
+    opacity: 0.5;
+}
+
+.fRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+}
+
+.fRight .images {
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.fRight .images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button {
+    padding: 1.3vw 2.5vw;
+    border-radius: 5vw;
+    border: 2px solid #e6e6e6;
+    background-color: white;
+    font-size: 1.3vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: 2vw;
+}
+
+.devlop {
+    width: 100%;
+    padding: 5vw 15vw;
+}
+
+.devlop h1 {
+    font-size: 3vw;
+    width: 40%;
+    font-weight: 400;
+    line-height: 1;
+
+}
+
+.devlop p {
+    font-size: 1.5vw;
+    width: 60%;
+    margin-top: 3vw;
+    letter-spacing: -0.5px;
+}
+
+.slides {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5vw 9vw;
+}
+
+.slide {
+    width: 31%;
+}
+
+.slide .img {
+    width: 100%;
+    height: 200px;
+
+}
+
+.slide .tag {
+    width: fit-content;
+    padding: 10px 22px;
+    background-color: #f7f7f7;
+    margin: 16px 0;
+    border-radius: 100px;
+}
+
+.slide .img img {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.slide h3 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
